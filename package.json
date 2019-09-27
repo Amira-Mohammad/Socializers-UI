@@ -1,9 +1,12 @@
 {
+  "homepage": "https://AmiraMohammad.github.io/Socializers-UI/",
   "name": "bs4starter",
   "version": "1.0.0",
   "description": "Bootstrap 4 starter workflow",
   "main": "index.js",
   "scripts": {
+    "predeply": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "gulp"
   },
   "author": "Brad Traversy",
@@ -11,6 +14,7 @@
   "dependencies": {
     "bootstrap": "4.0.0-beta",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
     "jquery": "^3.2.1",
     "popper.js": "^1.11.1"
   },
