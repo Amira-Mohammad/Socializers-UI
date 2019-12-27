@@ -2,6 +2,7 @@
   "homepage": "https://AmiraMohammad.github.io/Socializers-UI/",
   "name": "bs4starter",
   "version": "1.0.0",
+  "gh-pages": "^2.1.1",
   "description": "Bootstrap 4 starter workflow",
   "main": "index.js",
   "scripts": {
@@ -21,6 +22,7 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "gh-pages": "^2.1.1"
   }
 }
